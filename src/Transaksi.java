@@ -107,10 +107,10 @@ public class Transaksi {
         System.out.print("Jumlah Barang :");
         jumlah_barang = input.nextInt();
     }
-    public int jumlah(int a, int b) {
-        return a+b;
+    public int jumlah (int a, int b) {
+        return a*b;
     }
-    public int jumlah(int c, int d, int e) {
+    public int jumlah2 (int c, int d, int e) {
         return (c*d)+(d*e);
     }
     protected int jumlah(int f) {
@@ -145,6 +145,8 @@ public class Transaksi {
         System.out.println("| Nama Barang    : - "+ Bahan_pokok.getId_bahanpokok()+" "+Bahan_pokok.getNama_bahanpokok());
         System.out.println("| Jumlah         : "+jumlah_barang);
         System.out.println("| Harga          : "+Bahan_pokok.getHarga());
+        System.out.println("| Total          : "+jumlah(Bahan_pokok.getHarga(), jumlah_barang));
+        System.out.println("| Bayar          : "+bayar);
         System.out.println("| Kembalian      : "+jumlah(bayar));
         System.out.println("+-----------------------------------------------+");
     }

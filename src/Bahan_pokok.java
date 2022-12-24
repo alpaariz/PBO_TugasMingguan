@@ -42,6 +42,6 @@ public class Bahan_pokok {
         System.out.printf("+----------------------------------------------+");
     }
     public String note() {
-        return "Daftra Bahan Pokok";
+        return "Daftar Bahan Pokok";
     }
 }

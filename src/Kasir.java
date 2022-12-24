@@ -9,9 +9,9 @@ public class Kasir {
     public void insert_data() {
         Scanner input = new Scanner(System.in);
         System.out.println("Data Kasir");
-        System.out.print("Masukan ID Kasir");
+        System.out.print("Masukan ID Kasir      : ");
         id_Kasir = input.nextInt();
-        System.out.print("Masukan Nama Kasir");
+        System.out.print("Masukan Nama Kasir    : ");
         nama_Kasir = input.next();
     }
 
